@@ -12,3 +12,7 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 
 ### 哈希表
 - [LeetCode13. 罗马数字转整数](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-13.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0)
+
+### 链表
+
+- [Luogu B3631 单向链表]()
