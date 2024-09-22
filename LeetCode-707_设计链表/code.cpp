@@ -82,9 +82,9 @@ public:
     }
 
     void deleteAtIndex(int index) {
-        if (index < 0 || index >= size) return;
+        if (index >= size || index < 0) return;
 
-        Node *pointer = head;
+        Node* pointer = head;
         for (int i = 0; i < index; i++) {
             pointer = pointer->next;
         }
@@ -105,7 +105,7 @@ public:
             pointer->next->prev = pointer->prev;
         }
 
-        delete pointer;  // 释放内存
+        delete pointer; // 释放内存
         size--;
     }
 };
