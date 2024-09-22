@@ -1,96 +1,111 @@
 class MyLinkedList {
     class Node {
     public:
-        int value=0;
-        Node *next=nullptr,*prev=nullptr;
+        int value = 0;
+        Node *next = nullptr, *prev = nullptr;
     };
 public:
-    Node *head=nullptr;
-    Node *tail=nullptr;
-    int size=0;
+    Node *head = nullptr;
+    Node *tail = nullptr;
+    int size = 0;
+
     MyLinkedList() {
-        head=nullptr;
-        tail=nullptr;
-        size=0;
+        head = nullptr;
+        tail = nullptr;
+        size = 0;
     }
-    
+
     int get(int index) {
-        if(index>=size) return -1;
-        auto pointer=head;
-        for(int i=0;i<index;i++) {
-            pointer=pointer->next;
+        if (index < 0 || index >= size) return -1;  // 增加负索引检查
+        Node *pointer = head;
+        for (int i = 0; i < index; i++) {
+            pointer = pointer->next;
         }
         return pointer->value;
     }
-    
+
     void addAtHead(int val) {
-        if(head==nullptr) {
-            auto *newNode=new Node();
-            newNode->value=val;
-            head=newNode;
-            tail=newNode;
-        }else {
-            auto *newNode=new Node();
-            newNode->value=val;
-            head->prev=newNode;
-            newNode->next=head;
-            head=newNode;
+        Node *newNode = new Node();
+        newNode->value = val;
+        if (head == nullptr) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            head->prev = newNode;
+            newNode->next = head;
+            head = newNode;
         }
         size++;
     }
-    
+
     void addAtTail(int val) {
-        if(tail==nullptr) {
-            auto *newNode=new Node();
-            newNode->value=val;
-            head=newNode;
-            tail=newNode;
-        }else {
-            auto *newNode=new Node();
-            newNode->value=val;
-            tail->next=newNode;
-            newNode->prev=tail;
-            tail=newNode;
+        Node *newNode = new Node();
+        newNode->value = val;
+        if (tail == nullptr) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            tail->next = newNode;
+            newNode->prev = tail;
+            tail = newNode;
         }
         size++;
     }
-    
+
     void addAtIndex(int index, int val) {
-        if(index>size) return;
-        if(index==size) {
+        if (index > size) return;
+        if (index < 0) index = 0;  // 处理负索引情况
+        if (index == 0) {
+            addAtHead(val);
+            return;
+        }
+        if (index == size) {
             addAtTail(val);
             return;
         }
-        auto pointer=head;
-        for(int i=0;i<index;i++) {
-            pointer=pointer->next;
-        }
-        auto *newNode=new Node();
-        newNode->value=val;
-        if(pointer->prev!=nullptr) {
-            pointer->prev->next=newNode;
-            newNode->prev=pointer->prev;
+
+        Node *pointer = head;
+        for (int i = 0; i < index; i++) {
+            pointer = pointer->next;
         }
 
-        pointer->prev=newNode;
-        newNode->next=pointer;
+        Node *newNode = new Node();
+        newNode->value = val;
+
+        newNode->prev = pointer->prev;
+        newNode->next = pointer;
+        if (pointer->prev != nullptr) {
+            pointer->prev->next = newNode;
+        }
+        pointer->prev = newNode;
         size++;
-
     }
-    
-    void deleteAtIndex(int index) {
-        if(index>=size) return;
 
-        auto pointer=head;
-        for(int i=0;i<index;i++) {
-            pointer=pointer->next;
+    void deleteAtIndex(int index) {
+        if (index < 0 || index >= size) return;
+
+        Node *pointer = head;
+        for (int i = 0; i < index; i++) {
+            pointer = pointer->next;
         }
-        if(pointer->prev!=nullptr) {
-            pointer->prev->next=pointer->next;
+
+        if (pointer == head) {
+            head = pointer->next;
+            if (head != nullptr) head->prev = nullptr;
         }
-        if(pointer->next!=nullptr) {
-            pointer->next->prev=pointer->prev;
+        if (pointer == tail) {
+            tail = pointer->prev;
+            if (tail != nullptr) tail->next = nullptr;
         }
+
+        if (pointer->prev != nullptr) {
+            pointer->prev->next = pointer->next;
+        }
+        if (pointer->next != nullptr) {
+            pointer->next->prev = pointer->prev;
+        }
+
+        delete pointer;  // 释放内存
         size--;
     }
 };
@@ -101,6 +116,6 @@ public:
  * int param_1 = obj->get(index);
  * obj->addAtHead(val);
  * obj->addAtTail(val);
- * obj->addAtIndex(index,val);
+ * obj->addAtIndex(index, val);
  * obj->deleteAtIndex(index);
  */
