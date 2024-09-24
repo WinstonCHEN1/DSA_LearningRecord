@@ -25,3 +25,7 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 - [LeetCode 876. 链表的中间节点](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-876.%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9)
 - [LeetCode LCR 024. 反转链表](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/Winston/LeetCode-LCR%20024.%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8)
 - [LeetCode LCR 123. 图书整理 I](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-LCR%20123.%20%E5%9B%BE%E4%B9%A6%E6%95%B4%E7%90%86%20I)
+
+### 动态规划 DP
+
+- [Leetcode1014.最佳观光组合](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-1014.%E6%9C%80%E4%BD%B3%E8%A7%82%E5%85%89%E7%BB%84%E5%90%88)
