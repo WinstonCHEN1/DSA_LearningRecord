@@ -28,4 +28,4 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 
 ### 动态规划 DP
 
-- [Leetcode1014.最佳观光组合](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-1014.%E6%9C%80%E4%BD%B3%E8%A7%82%E5%85%89%E7%BB%84%E5%90%88)
+- [Leetcode1014.最佳观光组合](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-1014.%20%E6%9C%80%E4%BD%B3%E8%A7%82%E5%85%89%E7%BB%84%E5%90%88)
