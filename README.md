@@ -18,3 +18,7 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 - [Luogu B3631 单向链表](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/Luogu-B3631)
 - [LeetCode19.删除链表的倒数第 N 个结点](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-19.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC%20N%20%E4%B8%AA%E7%BB%93%E7%82%B9)
 - [LeetCode234.回文链表](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-234.%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8)
+
+### 动态规划DP
+
+- [Leetcode1014.最佳观光组合](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-1014.%E6%9C%80%E4%BD%B3%E8%A7%82%E5%85%89%E7%BB%84%E5%90%88)
