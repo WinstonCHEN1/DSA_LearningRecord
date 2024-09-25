@@ -29,6 +29,7 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 ### 动态规划 DP
 - [LeetCode 55. 跳跃游戏](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-55.%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F)
 - [LeetCode 70. 爬楼梯](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-70.%20%E7%88%AC%E6%A5%BC%E6%A2%AF)
+- [LeetCode 392. 判断子序列](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-392.%20%E5%88%A4%E6%96%AD%E5%AD%90%E5%BA%8F%E5%88%97)
 - [LeetCode 1014. 最佳观光组合](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-1014.%20%E6%9C%80%E4%BD%B3%E8%A7%82%E5%85%89%E7%BB%84%E5%90%88)
 
 ### 双指针
