@@ -10,6 +10,10 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 
 ## 📚目录（按照标签整理）
 
+### 数组
+
+- [LeetCode 2535. 数组元素和与数字和的绝对差](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-2535.%20%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E5%92%8C%E4%B8%8E%E6%95%B0%E5%AD%97%E5%92%8C%E7%9A%84%E7%BB%9D%E5%AF%B9%E5%B7%AE)
+
 ### 哈希表
 - [LeetCode 13. 罗马数字转整数](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-13.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0)
 
@@ -35,3 +39,7 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 ### 双指针
 
 - [LeetCode 392. 判断子序列](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-392.%20%E5%88%A4%E6%96%AD%E5%AD%90%E5%BA%8F%E5%88%97)
+
+### 完全二叉树
+
+- [LeetCode 222. 完全二叉树的节点个数](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-222.%20%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E4%B8%AA%E6%95%B0)
