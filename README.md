@@ -23,7 +23,6 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 - [LeetCode 19. 删除链表的倒数第 N 个结点](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-19.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC%20N%20%E4%B8%AA%E7%BB%93%E7%82%B9)
 - [LeetCode 82. 删除排序链表中的重复元素 II](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-82.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20II)
 - [LeetCode 83. 删除排序链表中的重复元素](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-83.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0)
-- [LeetCode 93. 删除排序链表中的重复元素](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-83.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0)
 - [LeetCode 234. 回文链表](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-234.%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8)
 - [LeetCode 707. 设计链表](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-707.%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8)
 - [LeetCode 876. 链表的中间节点](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-876.%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9)
