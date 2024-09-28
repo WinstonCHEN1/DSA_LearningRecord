@@ -12,6 +12,7 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 
 ### 数组
 
+- [LeetCode-852. 山脉数组的峰顶索引](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-852.%20%E5%B1%B1%E8%84%89%E6%95%B0%E7%BB%84%E7%9A%84%E5%B3%B0%E9%A1%B6%E7%B4%A2%E5%BC%95)
 - [LeetCode 2535. 数组元素和与数字和的绝对差](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-2535.%20%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E5%92%8C%E4%B8%8E%E6%95%B0%E5%AD%97%E5%92%8C%E7%9A%84%E7%BB%9D%E5%AF%B9%E5%B7%AE)
 
 ### 哈希表
@@ -42,3 +43,7 @@ Use a folder to store topics containing source code such as .cpp files or .py fi
 ### 完全二叉树
 
 - [LeetCode 222. 完全二叉树的节点个数](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-222.%20%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E4%B8%AA%E6%95%B0)
+
+### 二分查找
+
+- [LeetCode-852. 山脉数组的峰顶索引](https://github.com/WinstonCHEN1/DSA_LearningRecord/tree/main/LeetCode-852.%20%E5%B1%B1%E8%84%89%E6%95%B0%E7%BB%84%E7%9A%84%E5%B3%B0%E9%A1%B6%E7%B4%A2%E5%BC%95)
