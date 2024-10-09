@@ -38,5 +38,26 @@ Alice 和 Bob 正在玩一个游戏。最初，Alice 有一个字符串 word = "
 字符串 模拟 递归
 
 ## 解题思路
+就是一个while循环 每次都把字符串加上字符串经过变换之后得到的结果 退出条件为字符串的长度大于等于k
+## 源代码
+```kotlin
+var word="a"
+class Solution {
+    fun kthCharacter(k: Int): Char {
+        while(word.length<k){
+            word +=transform(word)
+        }
+        return word[k-1]
+    }
+    fun transform(s: String): String {
+        var new_word=""
+        for(i in s.indices){
+            new_word+=s[i].toChar()+1
+        }
+        return new_word;
+    }
+}
 
+
+```
 *思路部分待补充*
