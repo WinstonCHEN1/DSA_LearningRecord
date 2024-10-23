@@ -1,12 +1,12 @@
 package Leetcode3304
 
-var word="a"
+var WORD="a"
 class Solution {
     fun kthCharacter(k: Int): Char {
-        while(word.length<k){
-            word +=transform(word)
+        while(WORD.length<k){
+            WORD +=transform(WORD)
         }
-        return word[k-1]
+        return WORD[k-1]
     }
     fun transform(s: String): String {
         var new_word=""
